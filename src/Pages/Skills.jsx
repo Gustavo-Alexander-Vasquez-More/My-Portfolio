@@ -20,7 +20,7 @@ export default function Skills() {
         { name: "React", level: 5, description: "Hooks, Context, Router" },
         { name: "JavaScript", level: 5, description: "ES6+, Funciones Asíncronas" },
         { name: "HTML/CSS", level: 5, description: "Responsive, Flexbox, Grid" },
-        { name: "Tailwind CSS", level: 4, description: "Utilidades, Responsive Design" },
+        { name: "Tailwind CSS", level: 5, description: "Utilidades, Responsive Design" },
         { name: "Bootstrap", level: 4, description: "Componentes, Grid System" }
       ]
     },
@@ -82,8 +82,8 @@ export default function Skills() {
       icon: "🤝",
       color: "pink",
       skills: [
-        { name: "Trabajo en Equipo", level: 5, description: "Colaboración, Comunicación efectiva, Sinergia" },
-        { name: "Metodologías Ágiles", level: 4, description: "Scrum, Sprints, Daily Standups" },
+        { name: "Trabajo en Equipo", level: 5, description: "Colaboración, Comunicación efectiva" },
+        { name: "Metodologías Ágiles", level: 4, description: "Scrum, Sprints, Dailys" },
         { name: "Resolución de Problemas", level: 4, description: "Análisis, Debugging, Pensamiento crítico" },
         { name: "Aprendizaje Continuo", level: 5, description: "Autodidacta, Adaptabilidad, Curiosidad" },
       ]

@@ -11,7 +11,7 @@ export default function AboutMe() {
             Sobre Mí
           </h2>
           <p className='text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto px-4'>
-            Conoce la historia detrás de mi yo informático
+            Conocé la historia detrás de mi yo informático
           </p>
           <div className='w-16 sm:w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto mt-4 sm:mt-6 rounded-full'></div>
         </div>
@@ -75,7 +75,7 @@ export default function AboutMe() {
                 <div className='border-t border-gray-700/50 pt-3 sm:pt-4'>
                   <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2'>
                     <div>
-                      <h4 className='text-base sm:text-lg font-semibold text-white'>Bootcamp Desarrollo Integral MERN</h4>
+                      <h4 className='text-base sm:text-lg font-semibold text-white'>Bootcamp Desarrollo Stack MERN</h4>
                       <p className='text-gray-400 text-sm sm:text-base'>Mindhub</p>
                     </div>
                     <span className='text-cyan-400 font-medium text-sm sm:text-base'>2023</span>
@@ -100,7 +100,7 @@ export default function AboutMe() {
               <div className='grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4'>
                 <div className='flex items-center space-x-2 sm:space-x-3'>
                   <div className='w-2 h-2 bg-cyan-400 rounded-full flex-shrink-0'></div>
-                  <span className='text-gray-300 text-sm sm:text-base'>Desarrollo Integral</span>
+                  <span className='text-gray-300 text-sm sm:text-base'>Desarrollo en equipo</span>
                 </div>
                 <div className='flex items-center space-x-2 sm:space-x-3'>
                   <div className='w-2 h-2 bg-blue-400 rounded-full flex-shrink-0'></div>
@@ -179,45 +179,6 @@ export default function AboutMe() {
                 </div>
               </div>
             </div>
-
-        {/* Call to Action */}
-        <div className='text-center mt-12 lg:mt-16'>
-          <div className='bg-gray-800/30 backdrop-blur-sm rounded-2xl p-6 sm:p-8 border border-gray-700/50'>
-            <h3 className='text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4'>
-              ¿Tu empresa busca talento?
-            </h3>
-            <p className='text-gray-400 mb-3 sm:mb-4 max-w-2xl mx-auto text-sm sm:text-base px-2'>
-              Como la secuencia de Fibonacci, mi crecimiento profesional ha sido constante: 
-              cada experiencia construye sobre la anterior, creando un desarrollador más completo.
-            </p>
-            <div className='flex items-center justify-center gap-1 sm:gap-2 mb-3 sm:mb-4 overflow-x-auto'>
-              <div className='flex items-center gap-1 text-cyan-400 font-mono text-xs sm:text-sm'>
-                <span className='w-6 h-6 sm:w-8 sm:h-8 bg-cyan-400/20 rounded-full flex items-center justify-center text-xs'>1</span>
-                <span>→</span>
-                <span className='w-6 h-6 sm:w-8 sm:h-8 bg-cyan-400/30 rounded-full flex items-center justify-center text-xs'>1</span>
-                <span>→</span>
-                <span className='w-6 h-6 sm:w-8 sm:h-8 bg-cyan-400/40 rounded-full flex items-center justify-center text-xs'>2</span>
-                <span>→</span>
-                <span className='w-6 h-6 sm:w-8 sm:h-8 bg-cyan-400/50 rounded-full flex items-center justify-center text-xs'>3</span>
-                <span>→</span>
-                <span className='w-6 h-6 sm:w-8 sm:h-8 bg-cyan-400/60 rounded-full flex items-center justify-center text-xs'>5</span>
-                <span>→</span>
-                <span className='w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full flex items-center justify-center text-xs text-white font-bold'>∞</span>
-              </div>
-            </div>
-            <p className='text-gray-300 mb-4 sm:mb-6 text-xs sm:text-sm'>
-              Tu equipo + Mi dedicación = Crecimiento exponencial 🚀
-            </p>
-            <a 
-              href='https://wa.me/5492214567890?text=Hola%20Gustavo!%20Vi%20tu%20portafolio%20y%20me%20interesa%20hablar%20sobre%20oportunidades%20de%20trabajo' 
-              target='_blank' 
-              rel='noopener noreferrer'
-              className='inline-block px-6 sm:px-8 py-2 sm:py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold rounded-full hover:from-cyan-600 hover:to-blue-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-cyan-500/25 text-sm sm:text-base'
-            >
-              ¡Hablemos por WhatsApp! 💬
-            </a>
-          </div>
-        </div>
           </div>
         </div>
       </div>

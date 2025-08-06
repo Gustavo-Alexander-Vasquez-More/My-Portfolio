@@ -22,7 +22,7 @@ export default function Contact() {
       title: "GitHub",
       value: "GustavoVasquez",
       link: "https://github.com/Gustavo-Alexander-Vasquez-More",
-      description: "Revisa mi código y mi actividad"
+      description: "Revisá mi código y mi actividad en GitHub"
     },
     {
       icon: "📱",
@@ -43,7 +43,7 @@ export default function Contact() {
             Contacto
           </h2>
           <p className='text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto px-4'>
-            ¿Buscas un desarrollador para tu equipo? ¡Me encantaría ser parte de tu empresa!
+            ¿Buscás un desarrollador para tu equipo? ¡Me encantaría ser parte de tu empresa!
           </p>
           <div className='w-16 sm:w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto mt-4 sm:mt-6 rounded-full'></div>
         </div>
@@ -107,7 +107,7 @@ export default function Contact() {
             </h3>
             <p className='text-gray-400 mb-4 sm:mb-6 max-w-2xl mx-auto text-sm sm:text-base px-2'>
               Estoy buscando formar parte de un equipo donde pueda crecer profesionalmente 
-              y contribuir con mis habilidades técnicas. ¡Hablemos!
+              y contribuir con mis habilidades técnicas. ¡Charlemos!
             </p>
             <div className='flex flex-wrap justify-center gap-4'>
               <a 
