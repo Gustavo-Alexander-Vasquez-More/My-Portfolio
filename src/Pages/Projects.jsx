@@ -17,7 +17,17 @@ export default function Projects() {
       description: "Sitio web para empresa de mantenimiento de jardines, creación de ambientes paisajísticos y decoración de eventos con plantas. Incluye chatbot para consultas frecuentes, catálogo de trabajos realizados y diseño responsive optimizado para dispositivos móviles.",
       tech: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Express", "Responsive Design"],
       image: "/xicalango.png",
-      demo: "https://elxicalango.com",
+      demo: "https://xicalango.com",
+      category: "fullstack"
+    },
+    {
+      id: 3,
+      title: "Modern Invitation", 
+      description: "Diseño y desarrollo de una invitación de boda interactiva y responsive, adaptada a web y dispositivos móviles. Construida con tecnologías modernas para ofrecer una experiencia fluida y atractiva, integrando optimización de rendimiento, compatibilidad multiplataforma y diseño adaptativo.",
+      tech: ["React", "Tailwind CSS", "JavaScript", "Responsive Design"],
+      image: "/modern.png", // Cambia por tu imagen
+      github: "https://github.com/tu-usuario/proyecto2",
+      demo: "https://modern-invitation.vercel.app/",
       category: "frontend"
     }
   ]
